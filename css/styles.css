@@ -9,7 +9,6 @@
     color: white;
     text-decoration: none;
     font-weight: bold;
-
 }
 
 .brand-name:hover {
@@ -33,4 +32,23 @@
 
 li a:hover {
     text-decoration: underline;
+}
+
+.staffed-hours {
+    list-style: none;
+}
+
+.footer-info {
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+.contact-info {
+    list-style: none;
+}
+
+.basics-list {
+    color: white;
+    list-style: none;
 }
