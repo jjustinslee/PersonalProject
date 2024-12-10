@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
+    <title>Contact</title>
 </head>
 <body>
     <header>
@@ -29,10 +32,11 @@
             </ul>
         </section>
         <section>
+            <p><strong>We are staffed during</strong></p>
             <ul class="staffed-hours">
                 <li>MON - FRI: 9:00am - 5:00pm</li>
                 <li>WEEKEND: 9:00am - 5:00pm</li>
-            </ul>
+            </ul><br>
         </section>
         <section>
             <form action="/submit_message" method="post">
@@ -42,8 +46,8 @@
                 <input type="email" id="email" name="email" required><br><br>
                 <label for="message">Message *</label><br>
                 <textarea required></textarea><br>
-                <input type="submit" value="SUBMIT">
-            </form>
+                <button type="submit" class="btn btn-primary">SUBMIT</button>
+            </form><br>
         </section>
     </main>
     <footer>
